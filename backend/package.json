@@ -13,8 +13,8 @@
     "@supabase/supabase-js": "^2.103.0"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
+    "@types/node": "^20.12.7",
     "@vercel/node": "^5.3.6",
-    "typescript": "^6.0.2"
+    "typescript": "^5.4.5"
   }
 }
