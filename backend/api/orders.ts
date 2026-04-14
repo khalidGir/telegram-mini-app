@@ -1,9 +1,8 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { getSupabase } from './lib/supabase';
 import { verifyTelegramAuth } from './lib/auth';
 
 // GET/POST/PATCH /api/orders
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: any, res: any) {
   const supabase = getSupabase();
 
   // ---- GET /api/orders (my orders) ----

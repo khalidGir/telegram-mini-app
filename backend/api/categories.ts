@@ -1,8 +1,7 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { getSupabase } from './lib/supabase';
 
 // GET /api/categories
-export default async function handler(_req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: any, res: any) {
   try {
     const supabase = getSupabase();
     const { data, error } = await supabase
