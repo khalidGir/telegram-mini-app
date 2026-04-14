@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": "src",
+    "rootDir": "api",
     "outDir": "dist",
     "module": "ES2022",
     "moduleResolution": "bundler",
@@ -21,5 +21,5 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*"]
+  "include": ["api/**/*"]
 }
